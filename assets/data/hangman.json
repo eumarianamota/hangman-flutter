@@ -1,0 +1,964 @@
+{
+  "entries": [
+    {
+      "answer": "CABELO HUMANO",
+      "category": "humanBody",
+      "difficulty": "easy",
+      "hints": [
+        "Estrutura formada por fios que crescem sobre a cabeça."
+      ]
+    },
+    {
+      "answer": "BRAÇO HUMANO",
+      "category": "humanBody",
+      "difficulty": "easy",
+      "hints": [
+        "Membro superior ligado ao ombro."
+      ]
+    },
+    {
+      "answer": "PERNA",
+      "category": "humanBody",
+      "difficulty": "easy",
+      "hints": [
+        "Membro inferior usado para caminhar."
+      ]
+    },
+    {
+      "answer": "MÃO DIREITA",
+      "category": "humanBody",
+      "difficulty": "easy",
+      "hints": [
+        "Parte do membro superior com cinco dedos."
+      ]
+    },
+    {
+      "answer": "PÉ HUMANO",
+      "category": "humanBody",
+      "difficulty": "easy",
+      "hints": [
+        "Parte inferior do corpo que ajuda na sustentação e locomoção."
+      ]
+    },
+    {
+      "answer": "OLHO HUMANO",
+      "category": "humanBody",
+      "difficulty": "easy",
+      "hints": [
+        "Órgão relacionado à visão."
+      ]
+    },
+    {
+      "answer": "CAVIDADE ORAL",
+      "category": "humanBody",
+      "difficulty": "easy",
+      "hints": [
+        "Região do corpo relacionada à fala, mastigação e deglutição."
+      ]
+    },
+    {
+      "answer": "NARIZ",
+      "category": "humanBody",
+      "difficulty": "easy",
+      "hints": [
+        "Órgão relacionado principalmente ao olfato."
+      ]
+    },
+    {
+      "answer": "ORELHA",
+      "category": "humanBody",
+      "difficulty": "easy",
+      "hints": [
+        "Parte externa do órgão da audição."
+      ]
+    },
+    {
+      "answer": "DENTE",
+      "category": "humanBody",
+      "difficulty": "easy",
+      "hints": [
+        "Estrutura dura usada na mastigação."
+      ]
+    },
+    {
+      "answer": "COLUNA VERTEBRAL",
+      "category": "humanBody",
+      "difficulty": "medium",
+      "hints": [
+        "Estrutura óssea que sustenta o tronco e protege parte do sistema nervoso."
+      ]
+    },
+    {
+      "answer": "PULMÃO",
+      "category": "humanBody",
+      "difficulty": "medium",
+      "hints": [
+        "Órgão essencial para as trocas gasosas."
+      ]
+    },
+    {
+      "answer": "ESTÔMAGO",
+      "category": "humanBody",
+      "difficulty": "medium",
+      "hints": [
+        "Órgão do sistema digestório que recebe os alimentos."
+      ]
+    },
+    {
+      "answer": "CÉREBRO",
+      "category": "humanBody",
+      "difficulty": "medium",
+      "hints": [
+        "Estrutura do sistema nervoso responsável por integrar diversas funções do organismo."
+      ]
+    },
+    {
+      "answer": "FÍGADO",
+      "category": "humanBody",
+      "difficulty": "medium",
+      "hints": [
+        "Órgão que participa do metabolismo e da desintoxicação."
+      ]
+    },
+    {
+      "answer": "PULSO",
+      "category": "humanBody",
+      "difficulty": "medium",
+      "hints": [
+        "Região de articulação entre a mão e o antebraço."
+      ]
+    },
+    {
+      "answer": "JOELHO",
+      "category": "humanBody",
+      "difficulty": "medium",
+      "hints": [
+        "Articulação que participa de movimentos como caminhar, correr e agachar."
+      ]
+    },
+    {
+      "answer": "COTOVELO",
+      "category": "humanBody",
+      "difficulty": "medium",
+      "hints": [
+        "Articulação que une braço e antebraço."
+      ]
+    },
+    {
+      "answer": "PESCOÇO",
+      "category": "humanBody",
+      "difficulty": "medium",
+      "hints": [
+        "Região que liga a cabeça ao tronco."
+      ]
+    },
+    {
+      "answer": "COLUNA",
+      "category": "humanBody",
+      "difficulty": "medium",
+      "hints": [
+        "Estrutura formada por uma sequência de ossos que sustenta o tronco."
+      ]
+    },
+    {
+      "answer": "MEDULA ESPINHAL",
+      "category": "humanBody",
+      "difficulty": "hard",
+      "hints": [
+        "Estrutura do sistema nervoso protegida pela coluna vertebral."
+      ]
+    },
+    {
+      "answer": "PÂNCREAS",
+      "category": "humanBody",
+      "difficulty": "hard",
+      "hints": [
+        "Glândula que participa tanto da digestão quanto do controle da glicose."
+      ]
+    },
+    {
+      "answer": "ESÔFAGO",
+      "category": "humanBody",
+      "difficulty": "hard",
+      "hints": [
+        "Estrutura muscular que conduz o alimento após a deglutição."
+      ]
+    },
+    {
+      "answer": "TRAQUEIA",
+      "category": "humanBody",
+      "difficulty": "hard",
+      "hints": [
+        "Canal que conduz o ar em direção aos pulmões."
+      ]
+    },
+    {
+      "answer": "ARTICULAÇÃO TÊMPORO-MANDIBULAR",
+      "category": "humanBody",
+      "difficulty": "hard",
+      "hints": [
+        "Articulação que conecta a mandíbula ao crânio e participa dos movimentos da mastigação."
+      ]
+    },
+    {
+      "answer": "ESCÁPULA",
+      "category": "humanBody",
+      "difficulty": "hard",
+      "hints": [
+        "Osso plano localizado na parte posterior do tórax e relacionado ao ombro."
+      ]
+    },
+    {
+      "answer": "EPIGLOTE",
+      "category": "humanBody",
+      "difficulty": "hard",
+      "hints": [
+        "Estrutura que ajuda a impedir a entrada de alimentos nas vias respiratórias."
+      ]
+    },
+    {
+      "answer": "HIPÓFISE",
+      "category": "humanBody",
+      "difficulty": "hard",
+      "hints": [
+        "Pequena glândula localizada na base do cérebro."
+      ]
+    },
+    {
+      "answer": "TÍMPANO",
+      "category": "humanBody",
+      "difficulty": "hard",
+      "hints": [
+        "Membrana que vibra com as ondas sonoras no ouvido."
+      ]
+    },
+    {
+      "answer": "VÉRTEBRA",
+      "category": "humanBody",
+      "difficulty": "hard",
+      "hints": [
+        "Unidade óssea que se repete ao longo de uma importante estrutura do esqueleto."
+      ]
+    },
+    {
+      "answer": "DISCO RÍGIDO",
+      "category": "technology",
+      "difficulty": "easy",
+      "hints": [
+        "Dispositivo usado para armazenamento permanente de dados."
+      ]
+    },
+    {
+      "answer": "TECLADO",
+      "category": "technology",
+      "difficulty": "easy",
+      "hints": [
+        "Dispositivo com teclas usado para entrada de dados."
+      ]
+    },
+    {
+      "answer": "MOUSE",
+      "category": "technology",
+      "difficulty": "easy",
+      "hints": [
+        "Dispositivo apontador usado para controlar o cursor."
+      ]
+    },
+    {
+      "answer": "TELA DIGITAL",
+      "category": "technology",
+      "difficulty": "easy",
+      "hints": [
+        "Superfície usada para exibir informações visuais."
+      ]
+    },
+    {
+      "answer": "SENHA",
+      "category": "technology",
+      "difficulty": "easy",
+      "hints": [
+        "Sequência usada para autenticação."
+      ]
+    },
+    {
+      "answer": "ARQUIVO",
+      "category": "technology",
+      "difficulty": "easy",
+      "hints": [
+        "Unidade lógica usada para armazenar dados."
+      ]
+    },
+    {
+      "answer": "PASTA",
+      "category": "technology",
+      "difficulty": "easy",
+      "hints": [
+        "Estrutura usada para organizar arquivos."
+      ]
+    },
+    {
+      "answer": "REDE LOCAL",
+      "category": "technology",
+      "difficulty": "easy",
+      "hints": [
+        "Conjunto de dispositivos conectados em uma área limitada."
+      ]
+    },
+    {
+      "answer": "CELULAR",
+      "category": "technology",
+      "difficulty": "easy",
+      "hints": [
+        "Dispositivo portátil usado para comunicação e execução de aplicativos."
+      ]
+    },
+    {
+      "answer": "IMPRESSORA",
+      "category": "technology",
+      "difficulty": "easy",
+      "hints": [
+        "Dispositivo usado para transferir conteúdo digital para papel."
+      ]
+    },
+    {
+      "answer": "SISTEMA OPERACIONAL",
+      "category": "technology",
+      "difficulty": "medium",
+      "hints": [
+        "Software responsável por gerenciar recursos do computador e oferecer serviços a outros programas."
+      ]
+    },
+    {
+      "answer": "DATABASE",
+      "category": "technology",
+      "difficulty": "medium",
+      "hints": [
+        "Estrutura organizada para armazenamento e consulta de informações."
+      ]
+    },
+    {
+      "answer": "ROTEADOR",
+      "category": "technology",
+      "difficulty": "medium",
+      "hints": [
+        "Dispositivo que encaminha pacotes entre redes."
+      ]
+    },
+    {
+      "answer": "SOFTWARE",
+      "category": "technology",
+      "difficulty": "medium",
+      "hints": [
+        "Conjunto de programas e instruções executados por um computador."
+      ]
+    },
+    {
+      "answer": "PROCESSADOR",
+      "category": "technology",
+      "difficulty": "medium",
+      "hints": [
+        "Componente responsável por executar instruções."
+      ]
+    },
+    {
+      "answer": "APLICATIVO",
+      "category": "technology",
+      "difficulty": "medium",
+      "hints": [
+        "Programa desenvolvido para executar tarefas específicas."
+      ]
+    },
+    {
+      "answer": "ALGORITMO",
+      "category": "technology",
+      "difficulty": "medium",
+      "hints": [
+        "Sequência finita e ordenada de passos para solucionar um problema."
+      ]
+    },
+    {
+      "answer": "COMPILADOR",
+      "category": "technology",
+      "difficulty": "medium",
+      "hints": [
+        "Ferramenta que traduz uma representação de programa para outra antes de sua execução."
+      ]
+    },
+    {
+      "answer": "CLIENTE-SERVIDOR",
+      "category": "technology",
+      "difficulty": "medium",
+      "hints": [
+        "Modelo de comunicação em que uma parte solicita serviços e outra os fornece."
+      ]
+    },
+    {
+      "answer": "PROTOCOLO",
+      "category": "technology",
+      "difficulty": "medium",
+      "hints": [
+        "Conjunto de regras que permite a comunicação padronizada entre sistemas."
+      ]
+    },
+    {
+      "answer": "CONTROLE DE VERSÃO",
+      "category": "technology",
+      "difficulty": "hard",
+      "hints": [
+        "Prática usada para registrar e gerenciar alterações em arquivos ao longo do tempo."
+      ]
+    },
+    {
+      "answer": "SERIALIZAÇÃO",
+      "category": "technology",
+      "difficulty": "hard",
+      "hints": [
+        "Transformação de uma estrutura de dados em uma representação apropriada para armazenamento ou transmissão."
+      ]
+    },
+    {
+      "answer": "CRIPTOGRAFIA",
+      "category": "technology",
+      "difficulty": "hard",
+      "hints": [
+        "Técnica usada para proteger informações por transformação matemática."
+      ]
+    },
+    {
+      "answer": "VIRTUALIZAÇÃO",
+      "category": "technology",
+      "difficulty": "hard",
+      "hints": [
+        "Técnica que permite criar ambientes computacionais virtuais."
+      ]
+    },
+    {
+      "answer": "ENTRADA-SAÍDA",
+      "category": "technology",
+      "difficulty": "hard",
+      "hints": [
+        "Expressão usada para operações de comunicação entre um sistema e seus dispositivos ou fontes de dados."
+      ]
+    },
+    {
+      "answer": "ASSINCRONIA",
+      "category": "technology",
+      "difficulty": "hard",
+      "hints": [
+        "Forma de execução em que uma operação não precisa bloquear o progresso de outras."
+      ]
+    },
+    {
+      "answer": "REPOSITÓRIO",
+      "category": "technology",
+      "difficulty": "hard",
+      "hints": [
+        "Estrutura usada para armazenar e gerenciar código ou dados versionados."
+      ]
+    },
+    {
+      "answer": "ENCAPSULAMENTO",
+      "category": "technology",
+      "difficulty": "hard",
+      "hints": [
+        "Princípio de orientação a objetos que controla o acesso ao estado interno de uma abstração."
+      ]
+    },
+    {
+      "answer": "POLIMORFISMO",
+      "category": "technology",
+      "difficulty": "hard",
+      "hints": [
+        "Conceito de programação orientada a objetos em que diferentes tipos podem responder à mesma operação."
+      ]
+    },
+    {
+      "answer": "INTEROPERABILIDADE",
+      "category": "technology",
+      "difficulty": "hard",
+      "hints": [
+        "Capacidade de sistemas distintos trocarem informações e funcionarem de forma coordenada."
+      ]
+    },
+    {
+      "answer": "FUTEBOL DE CAMPO",
+      "category": "sports",
+      "difficulty": "easy",
+      "hints": [
+        "Esporte coletivo disputado por duas equipes em um campo com gols."
+      ]
+    },
+    {
+      "answer": "VÔLEI",
+      "category": "sports",
+      "difficulty": "easy",
+      "hints": [
+        "Esporte em que duas equipes se enfrentam separadas por uma rede."
+      ]
+    },
+    {
+      "answer": "TÊNIS",
+      "category": "sports",
+      "difficulty": "easy",
+      "hints": [
+        "Esporte disputado com raquetes e bola."
+      ]
+    },
+    {
+      "answer": "NATAÇÃO",
+      "category": "sports",
+      "difficulty": "easy",
+      "hints": [
+        "Esporte praticado na água."
+      ]
+    },
+    {
+      "answer": "BASQUETE",
+      "category": "sports",
+      "difficulty": "easy",
+      "hints": [
+        "Esporte em que o objetivo é acertar a bola na cesta."
+      ]
+    },
+    {
+      "answer": "FUTSAL",
+      "category": "sports",
+      "difficulty": "easy",
+      "hints": [
+        "Modalidade semelhante ao futebol, normalmente disputada em quadra."
+      ]
+    },
+    {
+      "answer": "BOXE OLÍMPICO",
+      "category": "sports",
+      "difficulty": "easy",
+      "hints": [
+        "Modalidade de combate praticada com luvas e regras esportivas."
+      ]
+    },
+    {
+      "answer": "SURFE",
+      "category": "sports",
+      "difficulty": "easy",
+      "hints": [
+        "Esporte praticado sobre ondas com uma prancha."
+      ]
+    },
+    {
+      "answer": "JUDÔ OLÍMPICO",
+      "category": "sports",
+      "difficulty": "easy",
+      "hints": [
+        "Arte marcial japonesa presente nos Jogos Olímpicos."
+      ]
+    },
+    {
+      "answer": "CICLISMO",
+      "category": "sports",
+      "difficulty": "easy",
+      "hints": [
+        "Esporte praticado com bicicleta."
+      ]
+    },
+    {
+      "answer": "SALTO EM DISTÂNCIA",
+      "category": "sports",
+      "difficulty": "medium",
+      "hints": [
+        "Prova do atletismo em que o atleta busca alcançar a maior distância após uma corrida."
+      ]
+    },
+    {
+      "answer": "ATLETISMO",
+      "category": "sports",
+      "difficulty": "medium",
+      "hints": [
+        "Conjunto de modalidades como corridas, saltos e lançamentos."
+      ]
+    },
+    {
+      "answer": "GINÁSTICA",
+      "category": "sports",
+      "difficulty": "medium",
+      "hints": [
+        "Modalidade que envolve movimentos de força, equilíbrio e flexibilidade."
+      ]
+    },
+    {
+      "answer": "POLOAQUÁTICO",
+      "category": "sports",
+      "difficulty": "medium",
+      "hints": [
+        "Esporte coletivo disputado dentro de uma piscina."
+      ]
+    },
+    {
+      "answer": "ESGRIMA",
+      "category": "sports",
+      "difficulty": "medium",
+      "hints": [
+        "Esporte de combate praticado com armas brancas esportivas."
+      ]
+    },
+    {
+      "answer": "TRIATLO",
+      "category": "sports",
+      "difficulty": "medium",
+      "hints": [
+        "Competição que reúne três modalidades de resistência em sequência."
+      ]
+    },
+    {
+      "answer": "BADMINTON",
+      "category": "sports",
+      "difficulty": "medium",
+      "hints": [
+        "Esporte de raquete em que o objeto lançado sobre a rede não é uma bola."
+      ]
+    },
+    {
+      "answer": "REMO OLÍMPICO",
+      "category": "sports",
+      "difficulty": "medium",
+      "hints": [
+        "Esporte aquático praticado com embarcações impulsionadas por remos."
+      ]
+    },
+    {
+      "answer": "MARATONA",
+      "category": "sports",
+      "difficulty": "medium",
+      "hints": [
+        "Prova de corrida cuja distância oficial é superior a quarenta quilômetros."
+      ]
+    },
+    {
+      "answer": "GOLEIRO",
+      "category": "sports",
+      "difficulty": "medium",
+      "hints": [
+        "Jogador responsável principalmente por defender o gol."
+      ]
+    },
+    {
+      "answer": "GINÁSTICA ARTÍSTICA",
+      "category": "sports",
+      "difficulty": "hard",
+      "hints": [
+        "Modalidade com aparelhos e séries que exigem força, equilíbrio e precisão."
+      ]
+    },
+    {
+      "answer": "DECATLO",
+      "category": "sports",
+      "difficulty": "hard",
+      "hints": [
+        "Competição combinada de atletismo formada por dez provas."
+      ]
+    },
+    {
+      "answer": "TAEKWONDO",
+      "category": "sports",
+      "difficulty": "hard",
+      "hints": [
+        "Arte marcial coreana com forte uso de chutes."
+      ]
+    },
+    {
+      "answer": "CORRIDA COM OBSTÁCULOS",
+      "category": "sports",
+      "difficulty": "hard",
+      "hints": [
+        "Prova em que o atleta percorre um trajeto superando barreiras ao longo do percurso."
+      ]
+    },
+    {
+      "answer": "HALTEROFILISMO",
+      "category": "sports",
+      "difficulty": "hard",
+      "hints": [
+        "Modalidade em que o atleta executa levantamentos de uma barra com pesos."
+      ]
+    },
+    {
+      "answer": "CURLING",
+      "category": "sports",
+      "difficulty": "hard",
+      "hints": [
+        "Esporte no gelo em que pedras deslizam em direção a um alvo."
+      ]
+    },
+    {
+      "answer": "CANOAGEM",
+      "category": "sports",
+      "difficulty": "hard",
+      "hints": [
+        "Esporte aquático praticado em canoas ou caiaques."
+      ]
+    },
+    {
+      "answer": "ESCALADA",
+      "category": "sports",
+      "difficulty": "hard",
+      "hints": [
+        "Modalidade em que o atleta progride por paredes ou estruturas."
+      ]
+    },
+    {
+      "answer": "HIPISMO",
+      "category": "sports",
+      "difficulty": "hard",
+      "hints": [
+        "Conjunto de modalidades esportivas praticadas com cavalos."
+      ]
+    },
+    {
+      "answer": "STEEPLECHASE",
+      "category": "sports",
+      "difficulty": "hard",
+      "hints": [
+        "Prova de atletismo com barreiras e obstáculo com água."
+      ]
+    },
+    {
+      "answer": "GATO DOMÉSTICO",
+      "category": "animals",
+      "difficulty": "easy",
+      "hints": [
+        "Felino criado como animal de companhia."
+      ]
+    },
+    {
+      "answer": "URSO POLAR",
+      "category": "animals",
+      "difficulty": "easy",
+      "hints": [
+        "Grande mamífero adaptado a regiões geladas do Ártico."
+      ]
+    },
+    {
+      "answer": "LEÃO AFRICANO",
+      "category": "animals",
+      "difficulty": "easy",
+      "hints": [
+        "Grande felino encontrado em regiões da África."
+      ]
+    },
+    {
+      "answer": "ELEFANTE",
+      "category": "animals",
+      "difficulty": "easy",
+      "hints": [
+        "Grande mamífero conhecido pela tromba."
+      ]
+    },
+    {
+      "answer": "MACACO",
+      "category": "animals",
+      "difficulty": "easy",
+      "hints": [
+        "Mamífero primata conhecido por grande agilidade."
+      ]
+    },
+    {
+      "answer": "CAVALO",
+      "category": "animals",
+      "difficulty": "easy",
+      "hints": [
+        "Mamífero domesticado usado historicamente para transporte."
+      ]
+    },
+    {
+      "answer": "TARTARUGA",
+      "category": "animals",
+      "difficulty": "easy",
+      "hints": [
+        "Réptil conhecido pelo casco rígido."
+      ]
+    },
+    {
+      "answer": "COELHO",
+      "category": "animals",
+      "difficulty": "easy",
+      "hints": [
+        "Mamífero de orelhas longas."
+      ]
+    },
+    {
+      "answer": "GALINHA",
+      "category": "animals",
+      "difficulty": "easy",
+      "hints": [
+        "Ave doméstica criada com frequência para produção de ovos."
+      ]
+    },
+    {
+      "answer": "PATO DOMÉSTICO",
+      "category": "animals",
+      "difficulty": "easy",
+      "hints": [
+        "Ave aquática criada pelo ser humano em diferentes regiões."
+      ]
+    },
+    {
+      "answer": "LOBO GUARÁ",
+      "category": "animals",
+      "difficulty": "medium",
+      "hints": [
+        "Canídeo sul-americano de pernas longas e pelagem avermelhada."
+      ]
+    },
+    {
+      "answer": "GIRAFA",
+      "category": "animals",
+      "difficulty": "medium",
+      "hints": [
+        "Mamífero conhecido pelo pescoço muito longo."
+      ]
+    },
+    {
+      "answer": "PANTERA",
+      "category": "animals",
+      "difficulty": "medium",
+      "hints": [
+        "Nome usado para grandes felinos de pelagem escura."
+      ]
+    },
+    {
+      "answer": "CANGURU",
+      "category": "animals",
+      "difficulty": "medium",
+      "hints": [
+        "Marsupial australiano conhecido pelos saltos."
+      ]
+    },
+    {
+      "answer": "PINGUIM",
+      "category": "animals",
+      "difficulty": "medium",
+      "hints": [
+        "Ave marinha que não voa e é adaptada à natação."
+      ]
+    },
+    {
+      "answer": "GORILA",
+      "category": "animals",
+      "difficulty": "medium",
+      "hints": [
+        "Grande primata africano."
+      ]
+    },
+    {
+      "answer": "TUCANO",
+      "category": "animals",
+      "difficulty": "medium",
+      "hints": [
+        "Ave conhecida pelo bico grande e colorido."
+      ]
+    },
+    {
+      "answer": "PORCO-ESPINHO",
+      "category": "animals",
+      "difficulty": "medium",
+      "hints": [
+        "Mamífero conhecido pela presença de espinhos ou pelos modificados usados como defesa."
+      ]
+    },
+    {
+      "answer": "IGUANA",
+      "category": "animals",
+      "difficulty": "medium",
+      "hints": [
+        "Réptil de corpo alongado, frequentemente associado a ambientes tropicais."
+      ]
+    },
+    {
+      "answer": "CORUJA",
+      "category": "animals",
+      "difficulty": "medium",
+      "hints": [
+        "Ave de rapina associada a hábitos noturnos."
+      ]
+    },
+    {
+      "answer": "DIABO DA TASMÂNIA",
+      "category": "animals",
+      "difficulty": "hard",
+      "hints": [
+        "Marsupial carnívoro nativo da Tasmânia."
+      ]
+    },
+    {
+      "answer": "AXOLOTE",
+      "category": "animals",
+      "difficulty": "hard",
+      "hints": [
+        "Anfíbio mexicano conhecido pela regeneração e pela manutenção de características juvenis na fase adulta."
+      ]
+    },
+    {
+      "answer": "TAMANDUÁ",
+      "category": "animals",
+      "difficulty": "hard",
+      "hints": [
+        "Mamífero conhecido por se alimentar principalmente de formigas e cupins."
+      ]
+    },
+    {
+      "answer": "QUATI SUL-AMERICANO",
+      "category": "animals",
+      "difficulty": "hard",
+      "hints": [
+        "Mamífero das Américas de focinho comprido e cauda geralmente anelada."
+      ]
+    },
+    {
+      "answer": "CARCARÁ",
+      "category": "animals",
+      "difficulty": "hard",
+      "hints": [
+        "Ave de rapina bastante conhecida no Brasil e adaptada a diferentes ambientes."
+      ]
+    },
+    {
+      "answer": "TATU-BOLA",
+      "category": "animals",
+      "difficulty": "hard",
+      "hints": [
+        "Mamífero brasileiro conhecido por enrolar o corpo quando ameaçado."
+      ]
+    },
+    {
+      "answer": "OKAPI AFRICANO",
+      "category": "animals",
+      "difficulty": "hard",
+      "hints": [
+        "Mamífero africano aparentado à girafa, com listras nas pernas."
+      ]
+    },
+    {
+      "answer": "SURICATO",
+      "category": "animals",
+      "difficulty": "hard",
+      "hints": [
+        "Pequeno mamífero africano conhecido por ficar em posição ereta."
+      ]
+    },
+    {
+      "answer": "NARVAL",
+      "category": "animals",
+      "difficulty": "hard",
+      "hints": [
+        "Cetáceo do Ártico cujo macho normalmente apresenta um longo dente projetado para a frente."
+      ]
+    },
+    {
+      "answer": "EQUIDNA",
+      "category": "animals",
+      "difficulty": "hard",
+      "hints": [
+        "Mamífero coberto por espinhos que pertence ao pequeno grupo de mamíferos que põem ovos."
+      ]
+    }
+  ]
+}
