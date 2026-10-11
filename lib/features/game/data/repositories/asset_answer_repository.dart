@@ -6,29 +6,20 @@ import '../../../../core/enums/answer_category.dart';
 import '../../../../core/enums/difficulty.dart';
 import '../../domain/entities/answer_entry.dart';
 
-/// Repositório responsável pelo carregamento assíncrono e desserialização
-/// das respostas do jogo contidas no arquivo JSON em assets.
 class AssetAnswerRepository {
   AssetAnswerRepository({
     this.assetPath = 'assets/data/hangman.json',
     this.bundle,
   });
 
-  /// Caminho do arquivo asset no projeto.
   final String assetPath;
 
-  /// Bundle de assets a ser utilizado (padrão: [rootBundle]).
   final AssetBundle? bundle;
 
   List<AnswerEntry> _cachedAnswers = const [];
 
-  /// Retorna a lista de respostas carregadas em memória.
   List<AnswerEntry> get answers => _cachedAnswers;
 
-  /// Carrega as respostas do arquivo JSON de forma assíncrona.
-  ///
-  /// Converte as strings para os respectivos enums de categoria e dificuldade,
-  /// e gera as instâncias de [AnswerEntry].
   Future<List<AnswerEntry>> loadAnswers({
     String Function(String)? normalizer,
   }) async {
@@ -71,7 +62,6 @@ class AssetAnswerRepository {
     }
   }
 
-  /// Filtra respostas em memória por categoria e nível de dificuldade.
   List<AnswerEntry> getByCategoryAndDifficulty(
     AnswerCategory category,
     Difficulty difficulty,

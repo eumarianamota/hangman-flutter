@@ -3,15 +3,11 @@ import 'package:flutter/material.dart';
 import '../../../game/data/repositories/asset_answer_repository.dart';
 import '../../../game/domain/entities/answer_entry.dart';
 
-/// Tela de abertura assíncrona responsável por carregar os dados das palavras
-/// a partir do arquivo JSON nos assets antes de liberar a navegação para o jogo.
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key, this.repository, this.onLoaded});
 
-  /// Repositório de dados injetável para flexibilidade ou testes.
   final AssetAnswerRepository? repository;
 
-  /// Callback opcional de navegação executado após o carregamento bem-sucedido.
   final void Function(BuildContext context, List<AnswerEntry> answers)?
   onLoaded;
 
@@ -45,7 +41,6 @@ class _SplashScreenState extends State<SplashScreen> {
       if (widget.onLoaded != null) {
         widget.onLoaded!(context, answers);
       } else {
-        // Redireciona para a rota padrão da HomeScreen conforme o fluxo do PRD
         Navigator.of(context).pushReplacementNamed('/home', arguments: answers);
       }
     } catch (error) {
@@ -60,7 +55,6 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    // Paleta de cores temática inspirada no papel/caderno analógico (PRD RNF01)
     const paperBackground = Color(0xFFF9F6F0);
     const inkColor = Color(0xFF2C3E50);
     const accentLineColor = Color(0xFFE0D7C6);
@@ -74,7 +68,6 @@ class _SplashScreenState extends State<SplashScreen> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // Ilustração / Ícone temático no estilo analógico
                 Container(
                   width: 100,
                   height: 100,
@@ -98,7 +91,6 @@ class _SplashScreenState extends State<SplashScreen> {
                 ),
                 const SizedBox(height: 28),
 
-                // Título em estilo de marcador / escrita manual
                 const Text(
                   'JOGO DA FORCA',
                   textAlign: TextAlign.center,
@@ -122,7 +114,6 @@ class _SplashScreenState extends State<SplashScreen> {
                 ),
                 const SizedBox(height: 48),
 
-                // Estado de carregamento ou exibição de erro
                 if (_isLoading) ...[
                   const CircularProgressIndicator(
                     strokeWidth: 3,

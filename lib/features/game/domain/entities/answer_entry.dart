@@ -1,8 +1,6 @@
 import '../../../../core/enums/answer_category.dart';
 import '../../../../core/enums/difficulty.dart';
 
-/// Representa uma entrada de resposta do jogo da forca com sua respectiva
-/// categoria, nível de dificuldade e lista de dicas associadas.
 class AnswerEntry {
   const AnswerEntry({
     required this.rawAnswer,
@@ -12,25 +10,16 @@ class AnswerEntry {
     required this.hints,
   });
 
-  /// A resposta com grafia e acentuação originais (utilizada para exibição na UI).
   final String rawAnswer;
 
-  /// A resposta sem acentos diacríticos e em caixa alta (utilizada para validação lógica de tentativas).
   final String normalizedAnswer;
 
-  /// A categoria temática da resposta.
   final AnswerCategory category;
 
-  /// O nível de dificuldade da resposta.
   final Difficulty difficulty;
 
-  /// A lista de dicas disponíveis para esta resposta.
   final List<String> hints;
 
-  /// Constrói uma instância de [AnswerEntry] a partir de um Map serializado do JSON.
-  ///
-  /// Um [normalizer] customizado pode ser fornecido; caso omitido, utiliza
-  /// a normalização padrão de diacríticos da língua portuguesa.
   factory AnswerEntry.fromJson(
     Map<String, dynamic> json, {
     String Function(String)? normalizer,
@@ -52,7 +41,6 @@ class AnswerEntry {
     );
   }
 
-  /// Converte a entidade de volta para uma estrutura serializável compatível com o JSON.
   Map<String, dynamic> toJson() => {
     'answer': rawAnswer,
     'category': category.toJson(),
@@ -60,7 +48,6 @@ class AnswerEntry {
     'hints': hints,
   };
 
-  /// Normalização padrão pura em Dart para remoção de acentos em português.
   static String _defaultNormalize(String input) {
     const withDiacritics =
         'ÀÁÂÃÄÅàáâãäåÈÉÊËèéêëÌÍÎÏìíîïÒÓÔÕÖØòóôõöøÙÚÛÜùúûüÇçÑñÝýÿ';
