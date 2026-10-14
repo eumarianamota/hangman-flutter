@@ -7,7 +7,7 @@ class AboutScreen extends StatelessWidget {
     'Mariana da Mota Pinho',
     'Mayara Lima Miranda',
     'José Wilk Souza Lima',
-    'Irapuam',
+    'Irapuam Junio da Silva Santos',
   ];
 
   @override
