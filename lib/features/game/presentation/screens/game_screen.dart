@@ -8,16 +8,6 @@ import '../widgets/hangman_display.dart';
 import '../widgets/virtual_keyboard.dart';
 import '../widgets/word_display.dart';
 
-/// Tela principal da partida do Jogo da Forca.
-///
-/// Responsabilidades e integração (PRD Seções 3.1, 5 e 7):
-/// - Integração estrita entre o [GameEngine] (Dart puro) e a interface via [setState];
-/// - Exibição da categoria e dificuldade em português;
-/// - Indicador gráfico da forca progressiva via [HangmanDisplay];
-/// - Exibição responsiva e anti-overflow da palavra via [WordDisplay];
-/// - Teclado virtual alfabético de A a Z com estados via [VirtualKeyboard];
-/// - Acesso à dica temático com registro único na rodada (RF09);
-/// - Interceptação de saída e desistência via [PopScope] (RF15).
 class GameScreen extends StatefulWidget {
   const GameScreen({
     super.key,
@@ -27,16 +17,9 @@ class GameScreen extends StatefulWidget {
     this.onForfeit,
   });
 
-  /// A resposta sorteada para a partida.
   final AnswerEntry answer;
-
-  /// Motor de jogo injetável (opcional, utilizado para testes de widget).
   final GameEngine? engine;
-
-  /// Callback opcional executado quando a partida atinge vitória ou derrota.
   final void Function(BuildContext context, GameEngine engine)? onGameFinished;
-
-  /// Callback opcional executado caso o jogador confirme a desistência.
   final VoidCallback? onForfeit;
 
   @override
@@ -274,7 +257,6 @@ class _GameScreenState extends State<GameScreen> {
         body: SafeArea(
           child: Column(
             children: [
-              // 1. Área superior: Representação gráfica da forca
               Expanded(
                 flex: 4,
                 child: Center(
@@ -282,7 +264,6 @@ class _GameScreenState extends State<GameScreen> {
                 ),
               ),
 
-              // 2. Área central: Palavra oculta responsiva
               Expanded(
                 flex: 3,
                 child: Center(
@@ -292,7 +273,6 @@ class _GameScreenState extends State<GameScreen> {
                 ),
               ),
 
-              // 3. Área inferior: Teclado virtual alfabético
               Padding(
                 padding: const EdgeInsets.only(bottom: 12.0),
                 child: VirtualKeyboard(
